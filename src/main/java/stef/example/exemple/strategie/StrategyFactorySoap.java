@@ -1,5 +1,6 @@
 package stef.example.exemple.strategie;
 
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,9 +8,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.lang.annotation.Annotation;
 
 @Slf4j
+@RequiredArgsConstructor
 public abstract class StrategyFactorySoap<A extends Annotation,T> {
-    @Autowired
-    private ListableBeanFactory beanFactory;
+
+    private final ListableBeanFactory beanFactory;
 
     public T getImplementation(String strategy) throws IllegalAccessException {
         Class<A> annotationClass = strategyAnnotation();
