@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
-import stef.example.exemple.strategie.ServiceSoap;
+import stef.example.exemple.strategie.soap.ServiceSoap;
 import stef.example.exemple.strategie.soap.adresse.AdresseInput;
 import stef.example.exemple.strategie.soap.adresse.AdresseOuput;
 import stef.example.exemple.strategie.soap.personne.PersonneInput;

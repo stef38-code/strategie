@@ -1,4 +1,4 @@
-package stef.example.exemple.strategie;
+package stef.example.exemple.strategie.soap;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

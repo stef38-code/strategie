@@ -1,4 +1,4 @@
-package stef.example.exemple.strategie;
+package stef.example.exemple.strategie.soap;
 
 import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.annotation.Qualifier;
