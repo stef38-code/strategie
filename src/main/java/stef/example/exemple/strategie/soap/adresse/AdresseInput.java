@@ -1,11 +1,11 @@
 package stef.example.exemple.strategie.soap.adresse;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
-
+@Builder
+@AllArgsConstructor
 public class AdresseInput {
     private String adr1;
     private String adr2;
